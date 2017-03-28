@@ -4,8 +4,9 @@
 - define a way to adjust complex inputs *without* **manual parameter tuning** and **instability issues**.
 - each DMP is a nonlinear dynamical system
 
-**IDEA:** 
-Take a stable, well defined dynamical system and add a term that makes it follow a specific trajectory. 
+### Key ingredients
+
+ - Take a stable, well defined dynamical system and add a term that makes it follow a specific trajectory. 
 
 #### Discrete DMPs
 The stable dynamical system in this case is the **point attractor** system:
@@ -22,7 +23,7 @@ where $f = \frac{\sum_{i=1}^N{w_i\psi_i}}{\sum_{i=1}^N{\psi_i}}x(y_{des} - y_0),
 
 - Spatial and temporal scaling allows stretching or compressing of  the trajectory in spatial ($y$) and temporal ($t$) domain. 
 
-#### Questions
+### Comments
 - How to choose means (centers) and the variances of basis functions $\psi_i$? 
 
 There two common ways of choosing the centers of basis functions; by spreading them uniformly on the time axis, or by distributing them according to the complexity of the desired trajectory - more functions around more difficult areas. 
