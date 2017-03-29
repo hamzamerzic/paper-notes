@@ -10,19 +10,17 @@
 - Combination of:
 -- **Deep Learning** - progress in perception
 -- **Reinforcement Learning** - policy selection
-- Contributions:
--- Imitate slow MCTS planner to learn a policy
 - Two components of the **perception problem**:
--- Partial observability - observations $\neq$ states
+-- Partial observability: observations $\neq$ states
 -- High dimensionality
 - Arcade Learning Environment (ALE): 60 fps, all games finite (episodic) with immediate rewards
 - Learns the POMDP, as the MDP would be intractable
 - State of the art:
--- DQN - no hand-engineered features, 4 previous frames used as states
--- Planning based on UCT - "number of simulation steps needed to ensure any bound on the loss of following the UCT-based policy is independent of the state space size" - good for perception problem, but still slow computation
+-- DQN - no hand-engineered features, 4 previous frames combined used as state
+-- Planning based on UCT - "number of simulation steps needed to ensure any bound on the loss of following the UCT-based policy is independent of the state space size" - good for perception problem, but still slow in computation
 
 ### Key ingredients
-- Play 800 games with UCT agent
+- Play 800 games with UCT (MCTS) agent
 - UCT agent uses internal game state to perform roll-outs
 - **Imitate the agent to learn the policy**
 - Combine 4 previous frames
