@@ -41,5 +41,7 @@ $$H = f(XW),\qquad \hat{X} = g(HW^T)$$
 -- Smarter state sampling from the replay buffer
 -- Better reward handling, since currently they are discretized to $\pm 1$
 -- Learn long term strategies
+- Around 50 million steps required for training [2]
 
-[1] Deep Learning for Real-Time Atari Game Play Using Offline Monte-Carlo Tree Search Planning, X. Guo et. al.
+[1] *Deep Learning for Real-Time Atari Game Play Using Offline Monte-Carlo Tree Search Planning*, X. Guo, et. al.
+[2] *Continuous Control With Deep Reinforcement Learning*, T. P. Lillicrap, et. al.
