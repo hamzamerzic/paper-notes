@@ -19,7 +19,7 @@
 - Nonlinear function approximators $\implies$ no stability guarantees
 - Performance compared to iLQG expert and naive (random) expert
 
-### Key ingridients
+### Key ingredients
 - Replay buffer and target network for stability taken from DQN
 - Batch normalization
 - Using actor-critic framework
