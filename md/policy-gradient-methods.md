@@ -6,6 +6,7 @@
 -- Improves greatly aided with value function approximation
 
 ### Overview
+- More focused on discrete actions (examples with softmax)
 - Explicitly represent the policy with function approximator (parametrised)
 - Update the parameters according to the gradient of expected reward
 - Previous work:

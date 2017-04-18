@@ -5,9 +5,14 @@ Since GitHub does not provide LaTeX rendering within their Markdown, for each no
 
 ## Reinforcement learning
 
-- [Deep Learning for Real-Time Atari Game Play Using Offline Monte-Carlo Tree Search Planning](pdf/atari-mcts.pdf) - Imitation learning from MCTS
-- [Playing Atari with Deep Reinforcement Learning](pdf/dqn.pdf) - DQN
-- [Policy Gradient Methods for Reinforcement Learning with Function Approximation](pdf/policy-gradient-methods.pdf)
-- [Deterministic Policy Gradient Algorithms](md/dpg-algs.md)
-- [Continuous Control With Deep Reinforcement Learning](pdf/continuous-control-drl.pdf)
-- [Dynamic Movement Primitives](pdf/dmps.pdf) - short summary found [here](https://studywolf.wordpress.com/2013/11/16/dynamic-movement-primitives-part-1-the-basics/)
+- [Deep Learning for Real-Time Atari Game Play Using Offline Monte-Carlo Tree Search Planning](pdf/atari-mcts.pdf), X. Guo
+-- Imitation learning from MCTS
+- [Playing Atari with Deep Reinforcement Learning](pdf/dqn.pdf), V. Mnih
+-- DQN
+- [Policy Gradient Methods for Reinforcement Learning with Function Approximation](pdf/policy-gradient-methods.pdf), R. Sutton
+- [Deterministic Policy Gradient Algorithms](md/dpg-algs.md), D. Silver
+-- DPG
+- [Continuous Control With Deep Reinforcement Learning](pdf/continuous-control-drl.pdf), T. P. Lillicrap
+-- DDPG
+- [Dynamic Movement Primitives](pdf/dmps.pdf), S. Schaal
+-- short summary found [here](https://studywolf.wordpress.com/2013/11/16/dynamic-movement-primitives-part-1-the-basics/)
