@@ -2,7 +2,7 @@
 
 ### Reminders
 - REINFORCE algorithm performs Monte Carlo sampling of the stochastic policy, and updates the policy using policy gradient calculated from the partial returns $(G_t)$ of episodes
--- Unbiased estimate of the gradient, but slow due to slow
+-- Unbiased estimate of the gradient, but slow convergence since it uses rollouts instead of function approximation
 -- Improves greatly aided with value function approximation
 
 ### Overview
