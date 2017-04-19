@@ -28,7 +28,7 @@
 -- select action on every 3rd of 4th frame and and repeats it on the skipped frames
 - Adds the last layer to the CNN (DQN) network
 
-#### UCTtoRegression 
+#### UCTtoRegression
 
 - Last layer regression
 - Worst performing

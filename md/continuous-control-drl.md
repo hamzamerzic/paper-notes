@@ -27,9 +27,9 @@
 $$L(\theta^Q) = \mathbb{E}\left[(Q(s_t, a_t|\theta^Q)-y_t)^2\right],$$ $$y_t = r(s_t, a_t) + \gamma Q(s_{t+1}, \mu(s_{t+1}) | \theta^Q)$$
 -- Actor learns by optimizing over policy parameters:
 $$\nabla_{\theta^\mu}J \approx \mathbb{E} \left[\nabla_a Q(s_{t+1}, \mu(s_{t+1})) \nabla_{\theta^\mu} \mu(s_t|\theta^\mu)\right]$$
-- Soft update (for increased stability) of both target networks: $\theta \leftarrow \tau \theta_+ + (1-\tau)\theta,$ with $\tau \ll 1$ 
+- Soft update (for increased stability) of both target networks: $\theta \leftarrow \tau \theta_+ + (1-\tau)\theta,$ with $\tau \ll 1$
 - Batch normalization is applied to almost all layers
-- Exploration is treated independently from learning (possible since it is off-policy), by adding process noise $\mathcal{N}$ to the policy 
+- Exploration is treated independently from learning (possible since it is off-policy), by adding process noise $\mathcal{N}$ to the policy
 
 ### Comments
 - DDPG learns both the Q function and the policy separately
