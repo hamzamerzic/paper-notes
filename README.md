@@ -19,4 +19,4 @@ Since GitHub does not provide LaTeX rendering within their Markdown, for each no
 
 ## Grasping
 
-- [Data-Driven Grasp Synthesis - A Survey](md/data-driven-grasping.md), J. Bohg
+- [Data-Driven Grasp Synthesis - A Survey](pdf/data-driven-grasping.pdf), J. Bohg
