@@ -6,7 +6,7 @@
 
 ### Key ingredients
 
- - Take a stable, well defined dynamical system and add a term that makes it follow a specific trajectory.
+- Take a stable, well defined dynamical system and add a term that makes it follow a specific trajectory.
 
 #### Discrete DMPs
 The stable dynamical system in this case is the **point attractor** system:
