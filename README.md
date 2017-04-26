@@ -10,7 +10,7 @@ Since GitHub does not provide LaTeX rendering within their Markdown, for each no
 - [Playing Atari with Deep Reinforcement Learning](pdf/dqn.pdf), V. Mnih
     - DQN
 - [Policy Gradient Methods for Reinforcement Learning with Function Approximation](pdf/policy-gradient-methods.pdf), R. Sutton
-- [Deterministic Policy Gradient Algorithms](md/dpg-algs.md), D. Silver
+- [Deterministic Policy Gradient Algorithms](pdf/dpg-algs.pdf), D. Silver
     - DPG
 - [Continuous Control With Deep Reinforcement Learning](pdf/continuous-control-drl.pdf), T. P. Lillicrap
     - DDPG
