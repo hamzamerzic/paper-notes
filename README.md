@@ -20,3 +20,7 @@ Since GitHub does not provide LaTeX rendering within their Markdown, for each no
 ## Grasping
 
 - [Data-Driven Grasp Synthesis - A Survey](pdf/data-driven-grasping.pdf), J. Bohg
+
+## Robotics
+
+- [A Differentiable Physics Engine for Deep Learning in Robotics](pdf/diff-phys-engine.pdf), J. Degrave
