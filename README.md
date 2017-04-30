@@ -9,6 +9,8 @@ Since GitHub does not provide LaTeX rendering within their Markdown, for each no
     - Imitation learning from MCTS
 - [Playing Atari with Deep Reinforcement Learning](pdf/dqn.pdf), V. Mnih
     - DQN
+- [Asynchronous Methods for Deep Reinforcement Learning](pdf/a3c.pdf), V. Mnih
+    - A3C
 - [Policy Gradient Methods for Reinforcement Learning with Function Approximation](pdf/policy-gradient-methods.pdf), R. Sutton
 - [Deterministic Policy Gradient Algorithms](pdf/dpg-algs.pdf), D. Silver
     - DPG
