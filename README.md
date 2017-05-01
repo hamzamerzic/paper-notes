@@ -16,6 +16,7 @@ Since GitHub does not provide LaTeX rendering within their Markdown, for each no
     - DPG
 - [Continuous Control With Deep Reinforcement Learning](pdf/continuous-control-drl.pdf), T. P. Lillicrap
     - DDPG
+- [Prioritized Experience Replay](pdf/per.pdf), T. Schaul
 - [Dynamic Movement Primitives](pdf/dmps.pdf), S. Schaal
     - short summary found [here](https://studywolf.wordpress.com/2013/11/16/dynamic-movement-primitives-part-1-the-basics/)
 
