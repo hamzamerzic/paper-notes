@@ -27,3 +27,4 @@ Since GitHub does not provide LaTeX rendering within their Markdown, for each no
 ## Robotics
 
 - [A Differentiable Physics Engine for Deep Learning in Robotics](pdf/diff-phys-engine.pdf), J. Degrave
+- [Reinforcement Learning for Pivoting Task](pdf/rl-pivoting.pdf), R. Antonova, S. Cruciani
