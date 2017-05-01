@@ -39,4 +39,5 @@ for $\alpha=0$, we get a uniform case, and $\alpha \to \infty$ the pure greedy c
     - Only concern is how to sample from
 - Prioritized replay speeds up learning by a factor of 2 **and** the overall performance on most of the tested scenarios
 - On multiple runs across multiple games, proportional prioritization achieves a better maximum score, but rank based is better on average
-- From the games tested, I think that rank based variant
+- From the games tested, I think that rank based variant should work better in real world scenarios
+- Also mentioned other prioritization schemes that might improve performance and robustness depending on the application
