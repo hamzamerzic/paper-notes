@@ -23,6 +23,7 @@ Since GitHub does not provide LaTeX rendering within their Markdown, for each no
 ## Grasping
 
 - [Data-Driven Grasp Synthesis - A Survey](pdf/data-driven-grasping.pdf), J. Bohg
+- [Leveraging Big Data for Grasp Planning](pdf/big-data-grasping.pdf), D. Kappler
 
 ## Robotics
 
