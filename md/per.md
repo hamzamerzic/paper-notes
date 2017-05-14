@@ -35,9 +35,14 @@ for $\alpha=0$, we get a uniform case, and $\alpha \to \infty$ the pure greedy c
 - Awesome implementation trick: approximate as a binary heap
 
 ### Comments
+- Built on top of Prioritized Sweeping:
+    - "To choose effectively where to spend a costly planning step, classic prioritized sweeping uses a simple heuristic to focus computation on the states that are likely to have the largest errors."
+    - Here they basically recognize the importance of choosing which states to update next (in terms of value propagation) and create a general algorithm to do so
 - Efficient implementations of each of the algorithms described in the paper
     - Only concern is how to sample from
 - Prioritized replay speeds up learning by a factor of 2 **and** the overall performance on most of the tested scenarios
 - On multiple runs across multiple games, proportional prioritization achieves a better maximum score, but rank based is better on average
 - From the games tested, I think that rank based variant should work better in real world scenarios
 - Also mentioned other prioritization schemes that might improve performance and robustness depending on the application
+- **BUT**, what I do not understand is why we use the TD-error previously defined and why the TD-error is initially set to the max value, given that we could calculate it from beginning
+    - Why don't we simply store the $Q_{tgt}(s, a)$ and assign to it a highest priority. Then, when we re-evaluate $Q_{tgt}(s, a)$, we set the priority to $Q_{tgt} - Q_{tgt}^(-)$, as this gives the actual TD-error
