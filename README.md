@@ -20,6 +20,7 @@ Since GitHub does not provide LaTeX rendering within their Markdown, for each no
 - [Dynamic Movement Primitives](pdf/dmps.pdf), S. Schaal
     - short summary found [here](https://studywolf.wordpress.com/2013/11/16/dynamic-movement-primitives-part-1-the-basics/)
 - [Benchmarking Deep Reinforcement Learning for Continuous Control](pdf/bench-drl.pdf), Y. Duan
+- [Apprenticeship Learning via Inverse Reinforcement Learning](pdf/apprent-inv-reinf.pdf)
 
 ## Grasping
 
