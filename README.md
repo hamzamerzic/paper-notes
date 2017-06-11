@@ -26,6 +26,7 @@ Since GitHub does not provide LaTeX rendering within their Markdown, for each no
 
 - [Data-Driven Grasp Synthesis - A Survey](pdf/data-driven-grasping.pdf), J. Bohg
 - [Leveraging Big Data for Grasp Planning](pdf/big-data-grasping.pdf), D. Kappler
+- [Learning Hand-Eye Coordination for Robotic Grasping with Deep Learning and Large-Scale Data Collection](pdf/large-scale-grasping.pdf), S. Levine
 
 ## Robotics
 

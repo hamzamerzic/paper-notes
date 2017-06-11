@@ -3,7 +3,7 @@
 ### Reminders
 - dexterous $=$ skillful (esp. with hands) -- e.g. being able to move the pen around while it is grasped
 - wrench $=$ noncontact forces and moments applied to the object
-- force closure $\implies$ grasp can be maintained in the face of any object wrench -- is aided by friction (c.f. form closure means no movement at all) 
+- force closure $\implies$ grasp can be maintained in the face of any object wrench -- is aided by friction (c.f. form closure means no movement at all)
 
 ### Overview
 - *grasp synthesis* $=$ "problem of finding a grasp configuration that satisfies a set of criteria relevant for the grasping task"
@@ -19,11 +19,11 @@
 ### Key ingredients
 - Problems with the analytic methods:
 1. Relative position of object and the manipulator is only approximately known
-    - somewhat solved using *independent contact regions* (regions of valid finger positions) and *caging formulations* 
+    - somewhat solved using *independent contact regions* (regions of valid finger positions) and *caging formulations*
 2. Precise geometric and physical models of objects are not available
     - particle filters for estimation, but still limited to simulation
 - classic metrics (such as $\epsilon$-metric) shown to not be good indicators of grasp success IRL
-    - idea of learning grasps arised 
+    - idea of learning grasps arised
 - data-driven approach divided into grasps of known, familiar and unknown objects
 
 #### Known objects
@@ -41,7 +41,7 @@
 
 ##### Online object pose estimation
 - Recognize the object and estimate its relative pose online $\rightarrow$ use the learned grasp database to perform the grasp of **the** object
- 
+
 #### Familiar objects
 - Use similarity matching to a set of known objects
 - Similarity can be texture, specific local features, functionality, etc. $\rightarrow$ difficult to find a representation for similarity
@@ -53,12 +53,12 @@
         - SQs nice as they have low number of parameters and high shape variability, but not sure how to deal with noisy data
     - use other approximations such as boxes, Markov Random Fields, etc.
 2. Based on 2D data
-    - avoid complexity of 3D data and mainly rely on 2D data to discriminate between good and bad grasp locations 
+    - avoid complexity of 3D data and mainly rely on 2D data to discriminate between good and bad grasp locations
     - use certain experience or imitate human interaction
     - works for certain applications, but in general highly under-constrained
 3. Integrating 2D and 3D data
     - e.g. segmentation of local or global 2D shapes for learning potential grasp points
-    
+
 ##### Grasp synthesis by comparison
 - Grasp hypothesis synthesised from similar objects with known good grasps
 1. Synthetic exemplars
@@ -66,7 +66,7 @@
     - some work addressing what to do in case 3D object meshes not available (e.g. estimating 3D mesh from sensor data)
 2. Sensor-based exemplars
     - map real sensor data to grasps $\rightarrow$ potential for generalization by learning the mapping
-        
+
 ##### Generative models for grasp synthesis
 - These approaches identify common structures from examples, instead of discriminating grasps or comparing to previous examples
 - Not much work done
@@ -83,7 +83,7 @@
 
 ##### Grasp hypotheses from low-level features
 - Map low-level 2D or 3D visual features to a set of grasp postures and rank them depending on the criteria
-- E.g. segment object parts and grip the best shape for the gripper, or the shape with most interior points to the gripper 
+- E.g. segment object parts and grip the best shape for the gripper, or the shape with most interior points to the gripper
 
 ##### Grasp hypotheses from global shape
 - Use certain heuristics based on full object shape to infer one good grasp hypothesis
@@ -99,6 +99,6 @@
 4. **Robust execution**
     - Using constant visual or tactile feedback to adapt to unforseen situations
     - How can tactile feedback be used to correct the grasp irrespective of the object? How can tactile and visual information be fused?
-    
+
 - In my opinion a rather interesting survey outlining most important research in the field
 - Cons: some parts left unclear, and some important terminology assumed to be known
